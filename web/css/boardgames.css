@@ -1,0 +1,152 @@
+body {
+  background-color: #FFF;
+  padding: 0px;
+  font-family: "Trebuchet MS";
+  font-size: .8em;
+  color: blue;
+  border: 1px solid #00F;
+}
+
+a, a:visited {
+  color: blue;
+  font-weight: bold;
+}
+
+.bgtitle {
+  margin-bottom: 0;
+  display: inline;
+}
+
+.gameList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gameList .gameListItem {
+  float: left;
+  margin: 14px;
+}
+
+.gameActions {
+  background-color: #DDF;
+  padding: 3px;
+}
+
+.gameItem {
+  width: 200px;
+  height: 180px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  border: 1px solid #EEF;
+}
+
+.gameItem-desc {
+  position:absolute; 
+  bottom: 0; 
+  left: 0;
+  right: 0;
+  z-index: 100; 
+  text-align:right;
+  background-color: #FFF; 
+  border: 1px solid #AAA;
+  padding: 1px;
+}
+
+.gameTitle {
+  font-weight: bold;
+}
+
+.gameImage {
+  max-height: 350px;
+  float: left;
+}
+
+.gameDetailBackAction {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #FFC;
+}
+
+.gameDetailInfo {
+  height: 350px;
+  padding: 3px;
+  overflow: auto;
+}
+
+#gameSearchField {
+  width: 300px;
+}
+
+#resultList {
+  border: 1px solid #EEE;
+  width: 300px;
+  height: 250px;
+  overflow: auto;
+  float: left;
+}
+
+#resultList:hover {
+}
+
+#gameSearchResultsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gameSearchResultsList li {
+  cursor: hand;
+  border-bottom: 1px solid #EEF;
+  padding: 2px;
+}
+
+#gameSearchResultsList li:hover {
+  background-color: lightblue;
+}
+
+#gameSearchResultsList .selected {
+  background-color: darkblue;
+  color: #FFF;
+}
+
+#resultItem {
+  float: left;
+  list-style: none;
+  margin: 14px;
+  padding: 0;
+}
+
+#eventGameList .gameListItem {
+  float: left;
+  margin: 14px 8px;
+  width: 285px;
+}
+
+.signupListContainer {
+  float: left;
+  width: 80px;
+  margin-right: 2px;
+}
+
+.signupActionOptions {
+  background-color: #CFC;
+  padding: 3px;
+}
+
+.signupList {
+  list-style: none;
+  margin: 0;
+  padding: 3px;
+}
+
+.signupList li {
+  border-bottom: 1px solid #EEF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.currentGuestSignup {
+  font-weight: bold;
+}
