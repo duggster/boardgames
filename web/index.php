@@ -77,7 +77,7 @@ require_once "../env/env.php";
   
   <script type="text/html" id="template-eventGameList">
     <h2 class="bgtitle">Boardgames</h2> <a href="#/userCollection">Manage My Collection</a><br/>
-    Sign up for a game.
+    Sign up for a game!
     <div id="eventGameList"></div>
   </script>
   
