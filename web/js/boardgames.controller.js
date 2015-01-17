@@ -7,7 +7,8 @@ Boardgames.addRegions({
 
 Boardgames.PBJ = {};
 Boardgames.PBJ.rpc = new easyXDM.Rpc({
-    remote: "http://localhost/pbj/web/pbj.php",
+    //PBJ_URL set from index.php
+    remote: PBJ_URL + "/web/pbj.php",
     onReady: function() {
     }
   }, {

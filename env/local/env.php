@@ -15,7 +15,7 @@ $DOCTRINE_DBPARAMS = array(
 );
 
 //Path to PBJ for service calls
-$PBJ_URL = "http://localhost/pbj";
+$PBJ_URL = "http://pbj-local";
 
 //BoardgameGeek URL
 $BGG_URL = 'http://www.boardgamegeek.com/xmlapi';
