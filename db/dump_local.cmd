@@ -1,0 +1,2 @@
+mysqldump -u pbj_bg -ppbj_bg -h localhost -B pbj_boardgames --skip-comments --skip-extended-insert --no-data > pbj_bg_local.ddl
+REM mysqldump -u pbj_bg -ppbj_bg -h localhost -B pbj_boardgames --skip-comments --skip-extended-insert --tables user communication_preference web_module web_module_prop web_module_role > pbj_local.dml
